@@ -52,7 +52,7 @@ body {
   margin-left: 50px;
 }
 
-.nav-big{font-size: 16px; font-weight: 600;
+.nav-big{font-size: 20px; font-weight: 600;
   background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
 	background-position: 0 100%;
 	background-repeat: repeat-x;
@@ -60,14 +60,14 @@ body {
   color: black;
   text-decoration: none;
 }
-.navs{font-size: 14px;}
+.navs{font-size: 16px;}
 
 a{  text-decoration: none;
   color: black;}
 
 .blank{height:5px; width: 100%;}
 
-.navvv{position: absolute;width:180px; margin-left: -90px; left:50%; top:20px;}
+.navvv{position: absolute;width:220px; margin-left: -110px; left:50%; top:20px; line-height: 40px;}
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 0px;}
