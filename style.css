@@ -13,8 +13,8 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color:
-  #ffc988
+  background-color:#ffbc6c
+  /* #ffc988 */
   ;
   overflow-x: hidden;
   transition: 0.5s;
