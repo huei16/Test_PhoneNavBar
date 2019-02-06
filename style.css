@@ -67,7 +67,7 @@ a{  text-decoration: none;
 
 .blank{height:5px; width: 100%;}
 
-.navvv{position: absolute;width:220px; margin-left: -110px; left:50%; top:20px; line-height: 40px;}
+.navvv{position: absolute;width:240px; margin-left: -120px; left:50%; top:20px; line-height: 40px;}
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 0px;}
