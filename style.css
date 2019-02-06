@@ -13,13 +13,11 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color:#ffbc6c
-  /* #ffc988 */
-  ;
+  background-color:#ffdeae;
   overflow-x: hidden;
   transition: 0.5s;
 }
-
+/*
 .sidenav a {
   padding: 0px 8px 0px 32px;
   text-decoration: none;
@@ -42,19 +40,34 @@ body {
   background-position: 0 100%;
   background-size: auto 10px;
   background-repeat: repeat-x;
-  text-decoration: none; */
-}
-.closebtn{font-size: 36px;}
+  text-decoration: none;
+} */
+.closebtn{}
 
 #mySidenav{line-height: 30px; font-size: 16px;}
-.sidenav .closebtn {
+.closebtn {font-size: 36px;
   position: absolute;
-  top: 0;
+  top: 10px;
   right: 25px;
   margin-left: 50px;
 }
-.nav-big{font-size: 20px;}
-.nav-small{font-size: 16px;}
+
+.nav-big{font-size: 16px; font-weight: 600;
+  background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+	background-size: 4px 4px;
+  color: black;
+  text-decoration: none;
+}
+.navs{font-size: 14px;}
+
+a{  text-decoration: none;
+  color: black;}
+
+.blank{height:5px; width: 100%;}
+
+.navvv{position: absolute;width:180px; margin-left: -90px; left:50%; top:20px;}
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 0px;}
